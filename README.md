@@ -1,4 +1,3 @@
-# aula_2-python-
-Segunda aula de Python
+# Computational Thinking with Python
 
-
+Repositório para salvar os materiais das aula de Python
