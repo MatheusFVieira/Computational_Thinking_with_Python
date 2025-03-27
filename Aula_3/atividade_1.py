@@ -1,9 +1,14 @@
 # Exercício_1
 
-velocidade = int(input("Digite a sua velocidade em (KM/h):\n"))
+num1 = int(input("Insira um número:\n"))
+num2 = int(input("Insira um número:\n"))
+dia = str(input("Digite o dia da semana:\n"))
 
-if velocidade > 80:
-    multa = (velocidade - 80) * 50
-    print(f'Você está acima da velocidade perimitida!\nO valor da sua multa é de R${multa},00')
+if num1 > num2 and dia == 'quarta':
+    print("Número 1 é maior e hoje é quarta-feira!\n")
+elif num1 > num2:
+    print("O número 1 é maior e hoje não é quarta-feira!\n")
+elif num1 == num2:
+    print("Os números são iguais!\n")
 else:
-    print("Você está dentro da velocidade permitida e não receberá multa!")
+    print("Número 2 é maior!\n")        
